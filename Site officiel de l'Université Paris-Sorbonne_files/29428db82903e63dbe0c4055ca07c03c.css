@@ -1,0 +1,223 @@
+/* compact [
+	prive/spip_style.css
+	plugins/auto/lecteur_multimedia/player.css
+	page=saisies.css
+	page=forms_styles.css
+] 90% */
+
+/* prive/spip_style.css */
+h3.spip{text-align:center;margin-top:2em;margin-bottom:1.4em;font-size:1.15em;font-weight:bold;}
+hr.spip{margin:2em auto;}
+ol.spip{list-style:decimal;}
+blockquote.spip{margin:2em 0;margin-left:1em;padding-left:1em;border-left:1px dotted #aaa;}
+blockquote.spip_poesie{margin:2em 0;margin-left:1em;padding-left:1em;border-left:1px solid #aaa;}
+blockquote.spip_poesie div{text-indent:-3em;margin-left:3em;}
+.spip_code,.spip_cadre{font-family:Courier,"Courier New",monospace;color:#036;}
+.spip_cadre{width:99%;background-color:#F4F8F8;border:1px inset;font-size:inherit;}
+div.spip_code,.spip_cadre{margin-bottom:1em;}
+.spip_surligne{background:#FF6;}
+table.spip{max-width:99%;margin-right:auto;margin-left:auto;margin-bottom:1em;border-collapse:collapse;border-spacing:0;line-height:normal;}
+table.spip caption{caption-side:top;text-align:center;margin-right:auto;margin-left:auto;font-weight:bold;}
+table.spip tr.row_first{background:#FFC;}
+table.spip tr.row_odd{background:#EEE;}
+table.spip tr.row_even{background:#DDD;}
+table.spip th,table.spip td{padding:0.20em 0.40em;text-align:left;border:1px solid;}
+table.spip th{vertical-align:bottom;font-weight:bold;}
+table.spip td{vertical-align:top;}
+table.spip td.numeric{text-align:right;}
+img,.spip_logos{margin:0;padding:0;border:0;}
+.spip_documents{text-align:center;line-height:normal;}
+.spip_documents p{margin:0.10em;padding:0;}
+.spip_documents_center{display:block;clear:both;width:100%;margin:1em auto;}
+.spip_documents_left{float:left;margin-right:15px;margin-bottom:5px;}
+.spip_documents_right{float:right;margin-left:15px;margin-bottom:5px;}
+.spip_doc_titre{margin-right:auto;margin-left:auto;font-weight:bold;font-size:0.90em;}
+.spip_doc_descriptif{clear:both;margin-right:auto;margin-left:auto;font-size:0.90em;}
+.spip_modele{float:right;display:block;padding:1em;border:1px solid;width:180px;}
+
+
+a.spip_mail{color:#900;}
+a.spip_mail:before{content:"\002709";}
+a.spip_out{color:#009;}
+a.spip_url{color:#009;}
+a.spip_glossaire{color:#060;}
+a.spip_glossaire:hover{text-decoration:underline overline;}
+.on{font-weight:bold;}
+
+/* plugins/auto/lecteur_multimedia/player.css */
+div.movieContainer{top:0;right:0 !important;left:-256px !important;top:0;}
+.radiobox{margin:10px 0px 10px 0px;padding:0px;width:200px;font-size:9px;font-family:verdana,sans-serif;color:#999;}
+.controles{cursor:pointer;text-align:right;margin-bottom:5px;}
+.playliste{list-style-type:none;padding:3px;margin:0;border:1px solid #ccc;}
+.radiobox a,.radiobox a:hover{text-decoration:none;font-family:verdana,sans-serif;color:#999;}
+.radiobox li.over{background:#e6e6e6;}
+.playliste_pagination{margin:5px 0px 0px 0px;border:1px solid #ccc;}
+ul.playliste li{cursor:pointer;}
+.radiobox li.play_on{background:#e6e6e6;}
+span.play_{cursor:pointer;}
+span.play_on{cursor:pointer;}
+#scrollbar{clear:both;height:5px;margin:5px 0px;border:1px solid white;background-color:white;position:relative;cursor:pointer;}
+#loading{margin:0px;padding:0px;height:5px;background-color:#ccc;width:0%;position:absolute;left:0px;top:0px;font-size:0.3em;z-index:10;}
+#position{margin:0px;padding:0px;height:5px;background-color:#e74455;width:0%;position:absolute;left:0px;top:0px;font-size:0.3em;z-index:20;}
+div#now_playing{width:120px;height:13px;text-align:left;}
+#scroller_container{position:relative;float:left;width:120px;height:13px;overflow:hidden;border:1px solid #ccc;}
+#scroller{width:120px;height:13px;position:absolute;left:0;top:0;margin:0;}
+#scroller_container{overflow:auto;}
+#player{background-color:#e9f6ff;color:#000;height:20px;width:200px;border:solid 1px #ccc;}
+#player .button{width:20px;height:20px;background-repeat:no-repeat;background-position:2px 2px;float:left;}
+#player .button a{display:block;height:20px;text-indent:-100em;overflow:hidden;}
+
+/* page=saisies.css */
+li.fieldset.pliable > fieldset > h3{cursor:pointer;}
+li.fieldset.pliable > fieldset > h3 span{padding-left:15px;background:transparent url("http://www.paris-sorbonne.fr/nos-formations/scolarite/diplomes/prive/images/deplierbas.gif") left center no-repeat;}
+li.fieldset.plie > fieldset > h3 span{background-image:url("http://www.paris-sorbonne.fr/nos-formations/scolarite/diplomes/prive/images/deplierhaut.gif");}
+.saisie_date_jour_mois_annee .choix{float:left;}
+.saisie_date_jour_mois_annee .choix+.choix{margin-left:1em;}
+.saisie_date_jour_mois_annee .choix label{display:block;width:auto;}
+.saisie_date_jour_mois_annee .choix .text{width:auto;}
+ul.item_picked{list-style:none;margin:0;padding:0;float:left;}
+ul.item_picked li{margin:0 2px 2px;padding:2px;background:#eee;border:1px solid #edf3fe;float:left;clear:none;}
+ul.item_picked li span.sep{display:none;}
+ul.item_picked li.article{padding-left:15px;background:url("http://www.paris-sorbonne.fr/nos-formations/scolarite/diplomes/plugins/auto/spip-bonux/img_pack/article-12.png") no-repeat left center;}
+ul.item_picked li.rubrique{padding-left:15px;background:url("http://www.paris-sorbonne.fr/nos-formations/scolarite/diplomes/prive/images/rubrique-12.gif") no-repeat left center;}
+ul.item_picked.select li{padding:2px 0;border:0;font-weight:bold;background:none;float:none;}
+ul.item_picked.select ul > li{float:left;}
+.picker_bouton{float:right;clear:both;}
+.item_picker{clear:left;font-size:0.95em;}
+.item_picker .chemin{border-bottom:1px solid #edf3fe;margin:0.5em 0 0.25em;clear:both;}
+.item_picker .frame{background:#fff;border:1px solid #3874b0;width:159px;height:400px;float:left;overflow:auto;position:relative;}
+.cadre .cadre_padding .item_picker .frame{width:153px;}
+.fiche_objet .cadre .cadre_padding .item_picker .frame{width:148px;}
+.item_picker .frame.total_3{margin-left:-58px;border-left:3px solid #3874b0;}
+.item_picker .frame.frame_0{margin-left:0;z-index:1000;}
+.item_picker .frame.frame_1{z-index:1010;}
+.item_picker .frame.frame_2{z-index:1020;}
+.item_picker .frame.frame_3{z-index:1030;}
+.item_picker .frame.frame_4{z-index:1040;}
+.item_picker .frame .frame_close{float:right;}
+.item_picker .frame h2{margin:0;padding:5px;background:#f6f9ff;font-size:1.3em;}
+.item_picker .frame .pagination{font-size:0.9em;}
+.item_picker .frame ul{list-style:none;margin:0;padding:0;}
+.item_picker .frame ul li{display:block;clear:both;list-style:none;margin:0;padding:0 2px;padding-left:15px;position:relative;}
+.item_picker .frame ul li.rubrique{background:url("http://www.paris-sorbonne.fr/nos-formations/scolarite/diplomes/prive/images/rubrique-12.gif") no-repeat left2px;padding-right:16px;}
+.item_picker .frame ul li.article{clear:both;background:url("http://www.paris-sorbonne.fr/nos-formations/scolarite/diplomes/plugins/auto/spip-bonux/img_pack/article-12.png") no-repeat left2px;}
+.item_picker .frame ul li:hover,.item_picker .frame ul li.on{background-color:#f6f9ff;}
+.item_picker .frame a:hover,.item_picker .frame a:hover .ouvrir,.item_picker .frame a:hover .add{background-color:#edf3fe;}
+.item_picker .frame ul li.rubrique .ouvrir{position:absolute;display:block;top:0px;right:0px;}
+.item_picker .frame ul >li .add{float:left;clear:left;}
+.item_picker .frame ul li a{display:block;}
+.item_picker .frame a{text-decoration:none;}
+.browser .choix_rapide{font-size:0.9em;}
+.browser #picker_id{padding:0;margin:0 5px;border:1px solid;}
+.formulaire_spip li.selecteur_item{padding-left:10px;background:#fff;}
+.formulaire_spip li.selecteur_item label{margin-left:0;display:block;float:left;padding:2px 0;}
+.formulaire_recherche{margin:0;padding:0;background:none;text-align:right;border:0;}
+.formulaire_recherche *{display:inline;vertical-align:middle;}
+.formulaire_recherche label{display:none;}
+.formulaire_recherche input.text{width:17em;color:#fff;border:1px solid #fff;background:#3874b0;padding:3px;}
+.formulaire_recherche img{padding:0 0 3px;}
+.formulaire_spip li.selecteur_item > label{float:none;}
+.formulaire_spip li.selecteur_item div.choix label{float:none;display:inline;}
+
+/* page=forms_styles.css */
+.spip_forms form label{float:none;}
+.spip_forms h2{margin:.2em;color:#543E29;}
+.spip_forms{color:black;margin:0px;margin-bottom:16px;font-family:Arial,Verdana,Helvetica,sans-serif;font-weight:normal;}
+.spip_forms form{border:0;margin:0;padding:.5em 0 0 0;}
+.spip_forms div.spip_descriptif{border:0;margin:0;clear:both;}
+.spip_forms h3{float:none;text-align:left;}
+.spip_forms legend{font-size:1.15em;padding:5px;display:none;}
+.spip_forms .spip_form_champ{margin-bottom:0;display:block;clear:both;margin-top:15px;}
+.spip_forms .spip_form_label{font-weight:bold;text-align:left;color:#333;display:block;padding-bottom:4px;}
+.spip_forms .spip_form_label label,.spip_forms .spip_form_label .label{text-align:left;font-weight:bold;color:#000;}
+.spip_forms .spip_form_label_obligatoire{font-weight:normal;font-style:italic;font-size:.9em;}
+.spip_forms .spip_form_label_details{display:block;font-style:italic;text-align:left;font-size:10px;padding-bottom:5px;}
+.spip_forms .spip_form_choix_multiple{display:block;}
+.spip_forms .spip_form_choix_unique input,.spip_forms .spip_form_choix_unique input.fondo,.spip_forms .spip_form_choix_unique input.fondl{width:auto;}
+.spip_forms .spip_form_choix_unique label{margin:0 0 5px 0;}
+.spip_forms .spip_form_choix_multiple input,.spip_forms .spip_form_choix_multiple input.fondo,.spip_forms .spip_form_choix_multiple input.fondl,ul.choix_mots li input{width:auto;margin:0 5px 0 0;}
+.spip_forms ul.choix_mots,.spip_forms ul.spip_form_choix_multiple,.spip_forms ul.spip_form_choix_unique{list-style:none;float:left;padding-left:5px;width:45%;}
+.spip_forms .spip_sondage{margin:auto;}
+.spip_forms .spip_form_erreur{font-weight:bold;color:red;}
+.spip_forms .spip_form_ok{font-weight:bold;background:#262626;color:#F1F1F1;margin:1em 0 0 0;padding:.6em;}
+.spip_forms .spip_form_ok a{color:#FFF9E2;}
+.spip_forms .spip_form_ok a:hover{color:#DEB55E;}
+.spip_forms .spip_form_ok_confirmation{display:block;}
+.spip_forms .spip_sondage strong{display:block;clear:both;margin-left:5px;color:#494949;}
+.spip_forms .spip_sondage .ligne_nom{width:19%;text-align:right;padding-right:1%;}
+.spip_forms .spip_sondage .ligne_nom:after{content:":";}
+.spip_forms .spip_sondage .ligne.chiffres{color:#525252;}
+.spip_forms .spip_sondage .ligne_barre{height:16px;background:url("http://www.paris-sorbonne.fr/nos-formations/scolarite/diplomes/ligne.gif") repeat-x;border:1px solid black;width:80%;}
+.spip_forms .spip_sondage .sondage_table{display:table;width:365px;}
+.spip_forms .spip_sondage .sondage_ligne{display:table-row;}
+.spip_forms .spip_sondage .sondage_ligne > div{display:table-cell;vertical-align:middle;padding:2px;white-space:nowrap;}
+.spip_forms .forml,.spip_forms .formo{width:365px;border:#ccc solid 1px;font-size:11px;padding:4px;}
+.spip_forms .forml,.spip_forms .fondl{background:#fff;color:#4A4336;width:365px;}
+.spip_forms .formo,.spip_forms .fondo{color:#4A4336;width:365px;}
+.spip_forms select{border:1px solid #CCC;width:200px !important;}
+.spip_forms .champ_obli_oubli{border:1px solid #d00000;}
+.spip_forms fieldset{border:none;margin:0 0 10px 0;padding:0;}
+.spip_forms a.resultats_sondage{display:block;float:right;background:#FFFBED;color:#444040;padding:.2em;border:1px solid #A07D7A;text-decoration:none;}
+.spip_forms a.resultats_sondage:hover{background:#444040;color:#F8F5EC;text-decoration:none;}
+.spip_forms p.spip_form_ok,.spip_forms p.spip_form_erreur,.spip_forms form{clear:both;}
+span.nettoyeur{clear:both;line-height:1px;font-size:1px;display:block;}
+span.erreur{display:block;font-size:11px;color:#d00000;padding-top:2px;}
+.spip_bouton input{background:none repeat scroll 0 0 #F0F0F0;border:1px solid #CCC;color:#4C4C4C;font-size:11px;padding:2px 5px;cursor:pointer;}
+span.donnees{display:block;border-left:5px solid #999;padding-left:1em;padding-top:1em;border-bottom:1px dashed #666;padding-bottom:0.4em;overflow:hidden;}
+span.donnee-champ{display:block;clear:left;}
+span.donnee-champ-label{width:150px;display:block;float:left;}
+span.donnee-champ-data{display:block;margin-left:160px;}
+span.nettoyeur{clear:both;}
+div.liste{clear:both;width:auto;}
+.highlight{background-color:#3D3D3D;font-weight:bold;}
+.donnees th{vertical-align:middle;background-repeat:no-repeat;border-left:1px solid #FFF;border-right:1px solid #000;border-top:1px solid #FFF;height:auto;padding:0px;margin:0px;height:34px;}
+.donnees th.neutre{padding-left:0px;background:url("http://www.paris-sorbonne.fr/plugins/auto/forms_et_tables_2_0/img_pack/header.png") repeat-x left bottom;}
+.donnees th.header{padding-left:15px;background:url("http://www.paris-sorbonne.fr/plugins/auto/forms_et_tables_2_0/img_pack/header-bg.png") no-repeat left bottom;}
+.donnees th.headerSortUp{padding-left:15px;background:url("http://www.paris-sorbonne.fr/plugins/auto/forms_et_tables_2_0/img_pack/header-asc.png") no-repeat left bottom;}
+.donnees th.headerSortDown{padding-left:15px;background:url("http://www.paris-sorbonne.fr/plugins/auto/forms_et_tables_2_0/img_pack/header-desc.png") no-repeat left bottom;}
+.donnees td .numerique{width:100%;text-align:right;display:block;}
+#sorting div{font-weight:bold;}
+#filter{text-align:left;width:auto;padding:5px;background-color:transparent;border:1px solid #888;display:none;float:right;}
+#filter p{text-align:left;padding:5px;margin:0px;float:left;}
+#filter div{text-align:center;float:left;}
+.filterIcon{width:20px;height:16px;text-align:center;background:url("http://www.paris-sorbonne.fr/plugins/auto/forms_et_tables_2_0/filter.gif") no-repeat center left;float:right;cursor:pointer;}
+.sorter{padding-right:10px;text-decoration:underline;cursor:pointer;float:left;}
+div.puce_forms_donnee{position:relative;height:11px;width:11px;}
+div.puce_forms_donnee_fixe{position:absolute;}
+div.puce_forms_donnee_popup{position:absolute;visibility:hidden;margin-top:-1px;top:0;border:1px solid #666;background-color:#ccc;z-index:10;}
+div.puce_forms_donnee_popup img{padding:1px;border:none;}
+div.puce_forms_donnee_popup{width:45px;}
+a.date-picker{width:26px;height:26px;border:none;color:#fff;padding:0;margin:0;float:left;overflow:hidden;cursor:pointer;background:url("http://www.paris-sorbonne.fr/plugins/auto/forms_et_tables_2_0/img_pack/select_day_26.gif") no-repeat;}
+a.date-picker span{margin:0 0 0 -2000px;}
+div.date-picker-holder{position:relative;}
+div.date-picker-holder input{float:left;}
+div.popup-calendar *{margin:0;padding:0;}
+div.popup-calendar{display:none;position:absolute;z-index:2;top:0;left:-16px;padding:4px;border:2px solid #000;background:#fff;color:#000;overflow:hidden;width:163px;font-size:0.8em;}
+html>body div.popup-calendar{left:99px;}
+div.popup-calendar iframe{display:none;display:block;position:absolute;top:0;left:0;z-index:-1;filter:mask();width:3000px;height:3000px;}
+div.popup-calendar div.link-close{float:right;}
+div.popup-calendar div.link-prev{float:left;}
+div.popup-calendar h3{font-size:1.1em;font-weight:bold;margin:2px 0 5px 3px;}
+div.popup-calendar div.link-next{float:right;}
+div.popup-calendar div a{padding:1px 2px;color:#000;}
+div.popup-calendar div a:hover{background-color:#000;color:#fff;}
+div.popup-calendar table{margin:0;}
+* html div.popup-calendar table{display:inline;}
+div.popup-calendar table th,div.popup-calendar table td{background:#eee;width:21px;height:17px;text-align:center;}
+div.popup-calendar table td.inactive{color:#aaa;padding:1px 0 0;}
+div.popup-calendar table td a{display:block;border:1px solid #eee;width:19px;height:15px;text-decoration:none;color:#333;}
+div.popup-calendar table td.today a{border-color:#aaa;}
+div.popup-calendar table td a.selected,div.popup-calendar table td a:hover{background:#333;color:#fff;}
+.formInfo a,.formInfo a:active,.formInfo a:visited{background-color:#f66;font-size:1.3em;font-weight:bold;padding:1px 2px;margin-left:5px;color:#FFF;text-decoration:none;float:right;}
+.formInfo a:hover{color:#600;text-decoration:none;}
+#JT_arrow_left{background-image:url("http://www.paris-sorbonne.fr/plugins/auto/forms_et_tables_2_0/img_pack/arrow_left.gif");background-repeat:no-repeat;background-position:left top;position:absolute;z-index:101;left:-12px;height:23px;width:10px;top:-3px;}
+#JT_arrow_right{background-image:url("http://www.paris-sorbonne.fr/plugins/auto/forms_et_tables_2_0/img_pack/arrow_right.gif");background-repeat:no-repeat;background-position:left top;position:absolute;z-index:101;height:23px;width:11px;top:-2px;}
+#JT{position:absolute;z-index:100;border:2px solid #CCC;background-color:#fff;}
+#JT_copy{padding:10px 10px 10px 10px;color:#333;}
+.JT_loader{background-image:url("http://www.paris-sorbonne.fr/plugins/auto/forms_et_tables_2_0/img_pack/loader.gif");background-repeat:no-repeat;background-position:center center;width:100%;height:12px;}
+#JT_close_left{background-color:#CCC;text-align:left;padding-left:8px;padding-bottom:5px;padding-top:2px;font-weight:bold;}
+#JT_close_right{background-color:#CCC;text-align:left;padding-left:8px;padding-bottom:5px;padding-top:2px;font-weight:bold;}
+#JT_copy p{margin:3px 0;}
+#JT_copy img{padding:1px;border:1px solid #CCC;}
+.jTip{cursor:help;}
+

@@ -1,0 +1,514 @@
+/* Modification du header */
+#header {
+	background: url('../img/header/bandeau_home.png') no-repeat; 
+	height: 150px;
+	position: relative;
+	z-index: 2;
+}
+
+.hLeft .langue {
+	padding-right: 20px;
+}
+
+.hLeft .langue a {
+	border-top: 2px solid #d5c1c7;
+	color: #d5c1c7;
+}
+
+.hRight .search {
+	height: 73px;
+}
+
+.hRight .intranet {
+	height: 28px;
+}
+
+/* On rajoute le menu du haut */
+#hMenu {
+	background: url('../img/header/bg_menu_home.png') no-repeat;
+	height: 32px;
+}
+
+#hMenu .hMenuLeft {
+	width: 340px;
+	float: left;
+	text-align: right;
+}
+
+#hMenu .hMenuLeft span {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	margin-top: 3px;
+	margin-right: 35px;
+}
+
+#hMenu .hMenuRight {
+	width: 644px;
+	float: left;
+}
+
+#hMenu ul {
+	list-style-type: none;
+	margin-top: 6px;
+}
+
+#hMenu ul li {
+	float: left;
+	font-size: 14px;
+	border-right: 1px solid #ffffff;
+	padding-right: 30px;
+	margin-left: 30px;
+}
+
+#hMenu ul li.last {
+	margin-right: 0px;
+}
+
+#hMenu ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Modification du menu de droite */
+#blocLeft {
+	padding-top: 9px;
+}
+
+#menuLeft {
+	margin-bottom: 0px;
+}
+
+/* Journal */
+#journal {
+	margin-left: 12px;
+	margin-right: 11px;
+	background: url('../img/puce_bloc.jpg') 0px 5px no-repeat;
+	padding-left: 12px;
+}
+
+#journal a{
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#links {
+	margin-left: 12px;
+	margin-right: 11px;
+}
+
+#links ul {
+	list-style-type: none;
+}
+
+#links ul li {
+	padding-bottom: 5px;
+}
+
+#links ul li.last {
+	padding-bottom: 0px;
+}
+
+#links ul li a {
+	background: url('../img/puce/puce_home.jpg') 0px 3px no-repeat;
+	padding-left: 8px;
+	text-decoration: none;
+	color: #807960;
+}
+
+/* On rajoute l'illustration */
+#illustrationHome{
+	margin-left: -1px;
+	margin-top: -2px;
+	height: 208px;
+	position: relative;
+	z-index: 1;
+	/*margin-bottom: 7px;*/
+}
+
+#main {
+	width: 512px;
+	float: left;
+	margin-top:1px;
+}
+
+/*#main h1 {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+	color:#ffffff;
+	background:#713044;
+	padding:40px 15px 5px 15px;
+	margin:0 0 15px 0;
+}*/
+
+#main h1 {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: normal;
+	color:#000000;
+	background:none;
+	padding:15px 15px 2px 0;
+	margin:0 0 15px 12px;
+	border-bottom:#713044 solid 4px;
+}
+
+#main h1 span {
+}
+
+#main h2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#main p {
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#main .rubrique {
+	background: url('../img/pointille_horizontal.jpg') bottom repeat-x;
+	margin:0 0 15px 12px;
+	padding-bottom: 10px;
+	clear:both;
+	overflow:hidden;
+}
+
+#main .rubrique .date {
+	font-size:11px;
+	color:#666666;
+	margin-bottom:10px;
+}
+
+#main .rubrique .image{
+	width:110px;
+	float:left;
+	margin:0 10px 5px 0;
+}
+
+#main .rubrique .infos{
+	overflow:hidden;
+}
+
+
+#main .last {
+	margin-bottom: 5px;
+}
+
+#main .rubrique .link {
+	text-align: right;
+	clear:both;
+}
+#main .rubrique .link a{
+	background:url("../img/puce/puce_black2.jpg") no-repeat 0 2px;
+	padding-left:10px;
+}
+
+/*#main .rubrique .link a{
+	background:#333333;
+	color:#ffffff;
+	text-decoration:none;
+	padding:2px 5px;
+}
+#main .rubrique .link a:hover{
+	background:#722E42; 
+}*/
+
+#main .rubrique .link a{
+	color:#000000;
+	text-decoration:none;
+}
+#main .rubrique .link a:hover{
+	text-decoration:underline;
+}
+
+
+#main .allLinks {
+	text-align: right;
+	margin-right: 11px;
+}
+
+#main .allLinks a {
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/************************************/
+/* Colonne de droite */
+/************************************/
+
+#blocRight {
+	width: 231px;
+	float: right;
+	margin:14px 14px 0 0;
+}
+
+#blocRight h3{
+	color:#ffffff;
+	background:#722E42;
+}
+
+
+
+
+#blocRight .chiffres .content{
+	background:#C6ABB2;
+}
+
+#blocRight .chiffres .content ul li{
+	 background:url("../img/puce/puce_blanche.png") no-repeat 0 2px;
+}
+
+
+
+#blocRight .imageclick_home .illustration{
+	position: relative;
+	z-index:1;
+}
+
+#blocRight .imageclick_home a{
+	text-decoration: none;
+}
+
+#blocRight .imageclick_home img{
+	vertical-align:bottom;
+}
+
+#blocRight .imageclick_home span {
+	position:absolute;
+	bottom:0;
+	left:0;
+	
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform:uppercase;
+	padding:3px 0 4px 10px;
+	background: url('../img/transparent.png') repeat center;
+	
+	display:block;
+	width: 221px;
+	z-index:10;
+}
+
+
+
+/***OLD***/
+
+/*#blocRight h1 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	background: url('../img/bg_title.jpg') 0px 4px repeat-x;
+	margin-bottom: 20px;
+}
+
+#blocRight h1 span {
+	background-color: #ffffff;
+	padding-right: 5px;
+}
+
+#blocRight .links {
+	margin-bottom: 12px;
+	background: url('../img/pointille_horizontal.jpg') bottom repeat-x;
+	padding-bottom: 7px;
+}
+
+#blocRight .links ul {
+	list-style-type: none;
+	margin-left: 7px;
+}
+
+#blocRight .links ul li {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	background: url('../img/puce/puce_black2.jpg') 0px 3px no-repeat;
+	padding-left: 15px;
+	padding-bottom: 7px;
+}
+
+#blocRight .links ul li a {
+	text-decoration: none;
+}
+
+#blocRight .formations {
+	margin-bottom: 12px;
+	height: 148px;
+	background: url('../img/pointille_horizontal.jpg') bottom repeat-x;
+	padding-bottom: 14px;
+	position: relative;
+}
+
+#blocRight .formations .illustration {
+	position: relative;
+}
+
+#blocRight .formations h2 {
+	font-size: 12px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: normal;
+	position: absolute;
+	top:0;
+	left:0;
+	width:221px;
+	padding:4px 0 4px 10px;
+	background: url('../img/transparent.png');
+}
+
+#blocRight .formations .content{
+	position: absolute;
+	font-weight: normal;
+	padding:0;
+	line-height: 26px;
+	top:30px;
+	left:10px;
+	
+}
+
+#blocRight .formations .content p{
+	font-size:26px;
+	color: #ffffff;
+	font-family: RotisSemiSerifStd;
+}
+
+#blocRight .formations .link {
+	position: absolute;
+	right:5px;
+	bottom:20px;
+	padding:0;
+}
+
+#blocRight .formations .link a {
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #857960;
+	border: 1px solid #2c1908;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#blocRight .publications {
+	background: url('../img/pointille_horizontal.jpg') bottom repeat-x;
+	padding-bottom: 14px;
+
+}
+
+#blocRight .publications h2 {
+	background-color: #333333;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: normal;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+
+#blocRight .publications .content {
+	padding-top: 10px;
+	overflow:hidden;
+	text-align:center;
+}
+
+#blocRight .publications .content .prev {
+	width: 16px;
+	float: left;
+	padding-top: 53px;
+	padding-left: 4px;
+}
+
+#blocRight .publications .content .diaporama {
+	width: 175px;
+	float: left;
+	margin-left: 8px;
+}
+
+
+#blocRight .publications .content .next {
+	width: 16px;
+	float: right;
+	padding-top: 53px;
+	padding-right: 4px;
+}
+
+#blocRight .publications ul {
+	list-style-type: none;
+}
+
+#blocRight .publications ul li {
+	display:inline;
+	padding: 0 5px;
+	background:none; 
+}
+
+#blocRight .publications ul li.impair {
+	margin-right: 11px;
+}*/
+
+
+/***END_OLD***/
+
+
+
+
+/************************************/
+/*Galerie "en Images"*/
+/************************************/
+
+
+.scrollable {
+
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width: 150px;
+	height:60px;
+	float:left;
+	margin:0 3px;
+}
+
+.scrollable .items {
+	/* this cannot be too large */
+	width:20000em;
+	position:absolute;
+}
+
+.items div {
+	float:left;
+	margin:5px;
+}
+
+
+.next{
+	cursor:pointer;
+	background:url('../img/next.jpg') 0px 0px no-repeat;
+	width:16px;
+	height:16px;
+	float:left;
+	margin-top:20px;
+}
+
+.prev{
+	cursor:pointer;
+	background:url('../img/prev.jpg') 0px 0px no-repeat;
+	width:16px;
+	height:16px;
+	float:left;
+	margin-top:20px;
+}
+
+#enImage .link a {
+    background: url("../img/puce/puce_home.jpg") no-repeat scroll 0 3px transparent;
+    color: #807960;
+    padding-left: 8px;
+    text-decoration: none;
+}

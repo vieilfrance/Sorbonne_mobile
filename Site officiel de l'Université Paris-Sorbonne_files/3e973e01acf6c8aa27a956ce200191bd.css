@@ -1,0 +1,404 @@
+/* compact [
+	squelettes-dist/spip_formulaires.css
+	squelettes/css/base.css
+	squelettes/css/blocright.css
+] 79.1% */
+
+/* squelettes-dist/spip_formulaires.css */
+input,select,textarea{font-size:100%;font-family:inherit;}
+.formulaire_spip{clear:both;margin-bottom:2em;padding:0;border:0;text-align:left;font-size:1em;}
+.formulaire_spip form{margin:0;padding:0;}
+.formulaire_spip fieldset{clear:both;margin:0 0 1em 0;padding:0;border:0;}
+.formulaire_spip fieldset legend{margin:0;padding:0;font-size:1.05em;font-weight:bold;background-color:#fff;color:#333;}
+.formulaire_spip fieldset fieldset{margin-top:1em;}
+.formulaire_spip fieldset fieldset legend{font-size:1em;font-weight:normal;}
+.formulaire_spip .explication{margin:0.50em 0;color:#444;}
+.formulaire_spip ul{margin:0;padding:0;list-style:none;}
+.formulaire_spip ul li{clear:both;margin:0;padding:0.50em 0;}
+.formulaire_spip label{display:block;text-align:left;color:#444;font-weight:bold;position:relative;}
+.formulaire_spip li p{margin-top:0;margin-bottom:0;}
+.formulaire_spip .choix label{display:inline;font-weight:normal;}
+.formulaire_spip .choix input.radio,.formulaire_spip .choix input.checkbox{width:auto;}
+.formulaire_spip input.text{width:15em;border:1px inset;}
+.formulaire_spip textarea{width:99%;border:1px inset;}
+.formulaire_spip select{width:99%;}
+.formulaire_spip .boutons{clear:both;margin:0;padding:0;text-align:right;}
+.formulaire_spip .boutons input{margin-left:1em;}
+
+
+.formulaire_spip fieldset.previsu{margin-bottom:2em;padding:1em;border:2px dashed #F57900;}
+.formulaire_spip fieldset.previsu legend{padding:0 0.50em;font-weight:bold;color:#F57900;}
+.formulaire_spip fieldset.previsu li{padding:3px;border:none;}
+.formulaire_spip fieldset.previsu p{margin:1em 0;}
+.reponse_formulaire{font-weight:bold;color:#e86519;font-size:1.20em;}
+fieldset.reponse_formulaire{border-color:#e86519;font-weight:normal;}
+fieldset.reponse_formulaire.reponse_formulaire legend{color:#F57900;}
+.formulaire_spip li.erreur .erreur_message{display:block;color:#C30;font-weight:bold;}
+.formulaire_spip li.erreur input.text,.formulaire_spip li.erreur textarea{background-color:#FCC;border-style:solid;border-color:#C30;}
+.reponse_formulaire_erreur{margin:0;color:#C30;font-weight:bold;}
+.reponse_formulaire_ok{margin:0;color:#53AD20;font-weight:bold;}
+table.spip_barre{width:100%;}
+table.spip_barre a img{background:#FDA;padding:3px;border:1px outset #CC9;}
+table.spip_barre a:focus img,table.spip_barre a:hover img,table.spip_barre a:active img{background:#FFF;border:1px solid #CC9;}
+table.spip_barre input.barre{width:99%;background:transparent;border:0;color:inherit;}
+.formulaire_forum .saisie_titre input.text,.formulaire_forum .saisie_titre textarea{width:98%;}
+.formulaire_menu_lang{margin:0;padding:0;background:none;}
+.formulaire_recherche{margin:0;padding:0;background:none;}
+.formulaire_recherche *{display:inline;vertical-align:middle;}
+.formulaire_recherche input.text{width:10em;padding-left:25px;background:#FFF url("http://www.paris-sorbonne.fr/squelettes-dist/rechercher.gif") no-repeat left center;}
+
+ul.choix_mots{display:block;margin:0;padding:0;list-style:none;}
+ul.choix_mots li{clear:none;float:left;display:block;width:30%;padding:1%;}
+ul.choix_mots li label{display:inline;font-weight:normal;}
+.formulaire_spip .bugajaxie{display:none;}
+.formulaire_login ul li{clear:left;}
+.formulaire_login .editer_password .details{display:block;}
+.formulaire_login #spip_logo_auteur{float:right;}
+
+/* squelettes/css/base.css */
+body{margin:0;padding:0;color:#333;background-color:#8f8880;font-family:arial,verdana,sans-serif;font-size:12px;}
+ul,li,a,h1,h2,form,h3,table,tr,td,th,input{margin:0;padding:0;}
+a{color:#333;}
+img{border:0;}
+#site{width:984px;margin:auto;background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_vertical.jpg") 211px 0px repeat-y;background-color:#fff;position:relative;}
+#main .back a{text-decoration:none;color:#fff;font-size:11px;font-weight:bold;padding-left:5px;padding-right:5px;}
+#header{width:984px;height:112px;position:relative;}
+.hLeft{width:731px;float:left;}
+.hLeft .langue{padding-right:15px;height:27px;}
+.hLeft .langue a{border-top:2px solid #333;text-decoration:none;float:right;font-size:11px;font-weight:bold;margin-left:20px;margin-top:8px;padding-top:2px;}
+.hRight{width:253px;float:left;}
+.hRight .search{height:60px;padding-top:8px;}
+.head_f9bb08{background:url("http://www.paris-sorbonne.fr/squelettes/img/header/headerUniversite.jpg") no-repeat;}
+.head_960c7c{background:url("http://www.paris-sorbonne.fr/squelettes/img/header/headerFormations.jpg") no-repeat;}
+.head_85795f{background:url("http://www.paris-sorbonne.fr/squelettes/img/header/headerRecherche.jpg") no-repeat;}
+.head_e96000{background:url("http://www.paris-sorbonne.fr/squelettes/img/header/headerVieEtudiante.jpg") no-repeat;}
+.head_72b301{background:url("http://www.paris-sorbonne.fr/squelettes/img/header/headerInternational.jpg") no-repeat;}
+.head_c20000{background:url("http://www.paris-sorbonne.fr/squelettes/img/header/headerBibliotheques.jpg") no-repeat;}
+.head_2ecbba{background:url("http://www.paris-sorbonne.fr/squelettes/img/header/headerActualites.jpg") no-repeat;}
+#logo_cliquable{position:absolute;top:12px;left:12px;}
+#searchForm{margin-left:10px;}
+#searchForm input#inputSearch{font-size:11px;font-family:arial,verdana,sans-serif;color:#595959;border:0;width:195px;padding-left:10px;padding-right:25px;padding-top:2px;padding-bottom:2px;background:url("http://www.paris-sorbonne.fr/squelettes/img/search.jpg") 212px center no-repeat #fff;}
+.hRight .intranet{height:23px;font-size:13px;text-align:right;padding-right:30px;padding-top:9px;}
+.hRight .intranet a{text-decoration:none;margin-left:3px;margin-right:3px;}
+.hRight .intranet a.selected{color:#fff;}
+#blocLeft{width:212px;padding:20px 0 12px 0;float:left;}
+#menuLeft{margin-left:12px;margin-right:11px;margin-bottom:20px;}
+#menuLeft .ul_1{list-style-type:none;border-top:1px solid #333;}
+#menuLeft .li_1{border-bottom:1px solid #333;padding-top:4px;padding-bottom:4px;}
+#menuLeft .li_1 a{text-decoration:none;font-size:12px;cursor:pointer;text-transform:uppercase;display:block;padding-top:2px;padding-bottom:2px;padding-left:17px;}
+#menuLeft .li_1 a.selected,#menuLeft .li_1 a:hover{color:#fff;font-weight:bold;}
+#menuLeft .col_f9bb08 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_universite.jpg") 0px 5px no-repeat;}
+#menuLeft .col_960c7c a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_nosFormations.jpg") 0px 4px no-repeat;}
+#menuLeft .col_85795f a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_recherche.jpg") 0px 4px no-repeat;}
+#menuLeft .col_e96000 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_vieEtudiante.jpg") 0px 4px no-repeat;}
+#menuLeft .col_72b301 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_international.jpg") 0px 4px no-repeat;}
+#menuLeft .col_c20000 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_bibliotheques.jpg") 0px 4px no-repeat;}
+#menuLeft .col_2ecbba a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_actualites.jpg") 0px 4px no-repeat;}
+#menuLeft .col_0d4ba0 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_actualites.jpg") 0px 4px no-repeat;}
+#menuLeft .col_89c74c a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_international.jpg") 0px 4px no-repeat;}
+#menuLeft .col_f9bb08 a.selected,#menuLeft .col_f9bb08 a:hover{background-image:none;background-color:#f9bb08;}
+#menuLeft .col_960c7c a.selected,#menuLeft .col_960c7c a:hover{background-image:none;background-color:#960c7c;}
+#menuLeft .col_85795f a.selected,#menuLeft .col_85795f a:hover{background-image:none;background-color:#85795f;}
+#menuLeft .col_e96000 a.selected,#menuLeft .col_e96000 a:hover{background-image:none;background-color:#e96000;}
+#menuLeft .col_72b301 a.selected,#menuLeft .col_72b301 a:hover{background-image:none;background-color:#72b301;}
+#menuLeft .col_c20000 a.selected,#menuLeft .col_c20000 a:hover{background-image:none;background-color:#c20000;}
+#menuLeft .col_2ecbba a.selected,#menuLeft .col_2ecbba a:hover{background-image:none;background-color:#2ecbba;}
+#menuLeft .col_0d4ba0 a.selected,#menuLeft .col_0d4ba0 a:hover{background-image:none;background-color:#0d4ba0;}
+#menuLeft .col_89c74c a.selected,#menuLeft .col_89c74c a:hover{background-image:none;background-color:#89c74c;}
+#menuLeft .ul_2{list-style-type:none;margin-left:31px;}
+#menuLeft .li_2{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_horizontal.jpg") bottom repeat-x;padding-bottom:3px;padding-top:3px;}
+#menuLeft li.last{background:none;margin-bottom:5px;}
+#menuLeft .li_2 a{text-decoration:none;font-size:11px;cursor:pointer;text-transform:none;display:block;margin:0;padding:0;padding-left:10px;}
+#menuLeft .li_2 a.selected,#menuLeft .li_2 a:hover{font-weight:normal;}
+#menuLeft .col_f9bb08 .li_2 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_universite2.jpg") 0px 6px no-repeat;}
+#menuLeft .col_960c7c .li_2 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_nosFormations2.jpg") 0px 6px no-repeat;}
+#menuLeft .col_85795f .li_2 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_recherche2.jpg") 0px 6px no-repeat;}
+#menuLeft .col_e96000 .li_2 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_vieEtudiante2.jpg") 0px 6px no-repeat;}
+#menuLeft .col_72b301 .li_2 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_international2.jpg") 0px 6px no-repeat;}
+#menuLeft .col_c20000 .li_2 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_bibliotheques2.jpg") 0px 6px no-repeat;}
+#menuLeft .col_2ecbba .li_2 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_actualites2.jpg") 0px 6px no-repeat;}
+#menuLeft .col_0d4ba0 .li_2 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_actualites2.jpg") 0px 6px no-repeat;}
+#menuLeft .col_89c74c .li_2 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_international2.jpg") 0px 6px no-repeat;}
+#menuLeft .col_f9bb08 .li_2 a.selected,#menuLeft .col_f9bb08 .li_2 a:hover{background-color:#fff;color:#f9bb08;}
+#menuLeft .col_960c7c .li_2 a.selected,#menuLeft .col_960c7c .li_2 a:hover{background-color:#fff;color:#960c7c;}
+#menuLeft .col_85795f .li_2 a.selected,#menuLeft .col_85795f .li_2 a:hover{background-color:#fff;color:#85795f;}
+#menuLeft .col_e96000 .li_2 a.selected,#menuLeft .col_e96000 .li_2 a:hover{background-color:#fff;color:#e96000;}
+#menuLeft .col_72b301 .li_2 a.selected,#menuLeft .col_72b301 .li_2 a:hover{background-color:#fff;color:#72b301;}
+#menuLeft .col_c20000 .li_2 a.selected,#menuLeft .col_c20000 .li_2 a:hover{background-color:#fff;color:#c20000;}
+#menuLeft .col_2ecbba .li_2 a.selected,#menuLeft .col_2ecbba .li_2 a:hover{background-color:#fff;color:#2ecbba;}
+#menuLeft .col_0d4ba0 .li_2 a.selected,#menuLeft .col_0d4ba0 .li_2 a:hover{background-color:#fff;color:#0d4ba0;}
+#menuLeft .col_89c74c .li_2 a.selected,#menuLeft .col_89c74c .li_2 a:hover{background-color:#fff;color:#89c74c;}
+#menuLeft .ul_3{list-style-type:none;background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_horizontal.jpg") repeat-x;padding-left:10px;padding-top:3px;margin-top:5px;}
+#menuLeft .li_3{padding-left:12px;padding-bottom:2px;}
+#menuLeft .li_3 a{padding-left:13px;}
+#menuLeft .col_f9bb08 .li_3 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_universite3.jpg") 0px 5px no-repeat;}
+#menuLeft .col_960c7c .li_3 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_nosFormations3.jpg") 0px 5px no-repeat;}
+#menuLeft .col_85795f .li_3 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_recherche3.jpg") 0px 5px no-repeat;}
+#menuLeft .col_e96000 .li_3 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_vieEtudiante3.jpg") 0px 5px no-repeat;}
+#menuLeft .col_72b301 .li_3 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_international3.jpg") 0px 5px no-repeat;}
+#menuLeft .col_c20000 .li_3 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_bibliotheques3.jpg") 0px 5px no-repeat;}
+#menuLeft .col_2ecbba .li_3 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_actualites3.jpg") 0px 5px no-repeat;}
+#menuLeft .col_0d4ba0 .li_3 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_actualites3.jpg") 0px 5px no-repeat;}
+#menuLeft .col_89c74c .li_3 a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_international3.jpg") 0px 5px no-repeat;}
+#menuLeft .ul_4{list-style-type:none;padding-left:10px;padding-top:3px;}
+#menuLeft .li_4{padding-bottom:2px;}
+#menuLeft .li_4 a{padding-left:10px;background:none !important;}
+#menuLeft .ul_5,#menuLeft .ul_6,#menuLeft .ul_7,#menuLeft .ul_8{list-style-type:none;padding:2px 0 2px 10px;}
+#youAre{margin-left:12px;margin-right:11px;}
+#youAre h1{color:#fff;font-size:12px;font-weight:bold;text-transform:uppercase;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_youAreTitle.jpg") 5px center no-repeat;background-color:#333;padding-left:20px;padding-top:2px;padding-bottom:2px;}
+#youAre ul{background-color:#e7e4df;list-style-type:none;padding-top:5px;}
+#youAre ul li{font-size:11px;font-weight:bold;padding-bottom:4px;margin-bottom:3px;background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_horizontal.jpg") bottom repeat-x;}
+#youAre ul li.last{background:none;margin-bottom:0px;}
+#youAre ul li.selected a,#youAre ul li:hover a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_youAreHover2.jpg") 12px 5px no-repeat;}
+#youAre ul li a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_youAre.jpg") 12px 5px no-repeat;text-decoration:none;padding-left:24px;display:block;padding-right:12px;padding-top:1px;padding-bottom:1px;}
+#youAre ul li a.selected,#youAre ul li a:hover{color:#fff;background-color:#666;}
+#enImage{margin-left:12px;margin-right:11px;}
+#enImage h1{font-size:14px;text-transform:uppercase;font-weight:normal;margin-bottom:10px;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_bloc.jpg") 0px 5px no-repeat;padding-left:12px;}
+#enImage .carousel{height:95px;}
+#enImage .carousel img{margin:5px;}
+#partage{margin-left:12px;margin-right:11px;}
+#partage img{margin-right:10px;}
+#contact{margin-left:12px;margin-right:11px;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_bloc.jpg") 0px 5px no-repeat;padding-left:12px;}
+#contact a{font-size:14px;text-transform:uppercase;text-decoration:none;}
+a.links_titre{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_bloc.jpg") 0px 5px no-repeat;font-size:14px;text-transform:uppercase;text-decoration:none;display:block;margin:0 11px 0 12px;padding:0 0 0 12px;}
+.separation{padding-top:12px;padding-bottom:12px;clear:both;}
+#newsletter_link{margin-left:12px;}
+#centre{width:772px;float:left;padding-bottom:12px;}
+#road{font-size:10px;padding-left:12px;margin-bottom:3px;text-transform:lowercase;}
+#road a{color:#857960;text-decoration:none;}
+#blocRight{margin-bottom:15px;}
+#main a{color:#333;}
+#main p{font-size:12px;margin:0px 0 10px 0;}
+#main ul{list-style-type:none;}
+#main .soustitre_lvl1{font-size:12px;text-transform:uppercase;font-weight:bold;color:#000;}
+#main .soustitre{font-size:13px;font-weight:bold;color:#000;}
+#main h1{font-size:14px;font-weight:bold;text-transform:uppercase;padding-left:126px;background:url("http://www.paris-sorbonne.fr/squelettes/img/bg_title.jpg") 0px 3px no-repeat;}
+#main .rubrique .content ul{margin-left:10px;}
+#main .rubrique .content li{padding-left:10px;}
+#main .content li a,#main .rubrique .content li a{text-decoration:none;}
+#main .content li a:hover,#main .rubrique .content li a:hover{text-decoration:underline;}
+#main #logo_rubrique{margin:5px 0;}
+#main table{border-collapse:collapse;}
+#main table td{padding:5px;}
+#main object{margin-bottom:10px;}
+#footer_hdp{text-align:right;margin:0 13px 4px 0;}
+#footer_hdp a{background:url("http://www.paris-sorbonne.fr/squelettes/img/fleche_haut_noire.png") no-repeat 5px 5px;color:#000;text-decoration:none;padding:4px 5px 4px 17px;}
+#footer{padding-top:10px;padding-bottom:10px;background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_horizontal.jpg") repeat-x;background-color:#fff;}
+#menuFooter{margin-left:25px;}
+#menuFooter ul{list-style-type:none;}
+#menuFooter ul li{float:left;font-size:11px;margin-right:40px;}
+#menuFooter ul li a{text-decoration:none;color:#6c6c6f;}
+.border_gris{border:#A09C81 solid 1px;}
+.site_f9bb08 .bg_clair{background:#FEE39C;}
+.site_f9bb08 .bg_inter{background:#FBCF52;}
+.site_f9bb08 .bg_fonce{background:#F9BB08;color:#fff;}
+.site_f9bb08 .bg_clair_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #FEE39C;}
+.site_f9bb08 .bg_inter_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #FBCF52;}
+.site_f9bb08 .border_rbl_clair_6{border:#FEE39C 6px;border-style:none solid solid solid;}
+.site_f9bb08 .border_t_clair_6{border:#FEE39C 6px;border-style:solid none none none;}
+.site_f9bb08 .border_trbl_clair_1{border:#F9BB08 solid 1px;}
+.site_960c7c .bg_clair{background:#D69CCC;}
+.site_960c7c .bg_inter{background:#B655A4;color:#fff;}
+.site_960c7c .bg_fonce{background:#960C7C;}
+.site_960c7c .bg_clair_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #D69CCC;}
+.site_960c7c .bg_inter_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #B655A4;color:#fff;}
+.site_960c7c .border_rbl_clair_6{border:#D69CCC 6px;border-style:none solid solid solid;}
+.site_960c7c .border_t_clair_6{border:#D69CCC 6px;border-style:solid none none none;}
+.site_960c7c .border_trbl_clair_1{border:#960C7C solid 1px;}
+.site_85795f .bg_clair{background:#CDC9BE;}
+.site_85795f .bg_inter{background:#AAA190;color:#fff;}
+.site_85795f .bg_fonce{background:#85795F;}
+.site_85795f .bg_clair_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #CDC9BE;}
+.site_85795f .bg_inter_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #AAA190;color:#fff;}
+.site_85795f .border_rbl_clair_6{border:#CDC9BE 6px;border-style:none solid solid solid;}
+.site_85795f .border_t_clair_6{border:#CDC9BE 6px;border-style:solid none none none;}
+.site_85795f .border_trbl_clair_1{border:#85795F solid 1px;}
+.site_e96000 .bg_clair{background:#F5BD98;}
+.site_e96000 .bg_inter{background:#F2914C;}
+.site_e96000 .bg_fonce{background:#E96000;}
+.site_e96000 .bg_clair_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #F5BD98;}
+.site_e96000 .bg_inter_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #F2914C;}
+.site_e96000 .border_rbl_clair_6{border:#F5BD98 6px;border-style:none solid solid solid;}
+.site_e96000 .border_t_clair_6{border:#F5BD98 6px;border-style:solid none none none;}
+.site_e96000 .border_trbl_clair_1{border:#E96000 solid 1px;}
+.site_72b301 .bg_clair{background:#C7E19A;}
+.site_72b301 .bg_inter{background:#9CCA4D;color:#fff;}
+.site_72b301 .bg_fonce{background:#72B301;}
+.site_72b301 .bg_clair_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #C7E19A;}
+.site_72b301 .bg_inter_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #9CCA4D;color:#fff;}
+.site_72b301 .border_rbl_clair_6{border:#C7E19A 6px;border-style:none solid solid solid;}
+.site_72b301 .border_t_clair_6{border:#C7E19A 6px;border-style:solid none none none;}
+.site_72b301 .border_trbl_clair_1{border:#72B301 solid 1px;}
+.site_c20000 .bg_clair{background:#E79999;}
+.site_c20000 .bg_inter{background:#D44C4C;color:#fff;}
+.site_c20000 .bg_fonce{background:#C20000;}
+.site_c20000 .bg_clair_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #E79999;}
+.site_c20000 .bg_inter_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #D44C4C;color:#fff;}
+.site_c20000 .border_rbl_clair_6{border:#E79999 6px;border-style:none solid solid solid;}
+.site_c20000 .border_t_clair_6{border:#E79999 6px;border-style:solid none none none;}
+.site_c20000 .border_trbl_clair_1{border:#C20000 solid 1px;}
+.site_2ecbba .bg_clair{background:#ABEAE2;}
+.site_2ecbba .bg_inter{background:#6DDBD0;}
+.site_2ecbba .bg_fonce{background:#2ECBBA;color:#fff;}
+.site_2ecbba .bg_clair_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #ABEAE2;}
+.site_2ecbba .bg_inter_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #6DDBD0;}
+.site_2ecbba .border_rbl_clair_6{border:#ABEAE2 6px;border-style:none solid solid solid;}
+.site_2ecbba .border_t_clair_6{border:#ABEAE2 6px;border-style:solid none none none;}
+.site_2ecbba .border_trbl_clair_1{border:#2ECBBA solid 1px;}
+.site_722e43 .bg_clair{background:#C8AAB2;}
+.site_722e43 .bg_inter{background:#9D6D7B;color:#fff;}
+.site_722e43 .bg_fonce{background:#722E43;color:#fff;}
+.site_722e43 .bg_clair_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #C8AAB2;}
+.site_722e43 .bg_inter_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #9D6D7B;color:#fff;}
+.site_722e43 .border_rbl_clair_6{border:#C8AAB2 6px;border-style:none solid solid solid;}
+.site_722e43 .border_t_clair_6{border:#C8AAB2 6px;border-style:solid none none none;}
+.site_722e43 .border_trbl_clair_1{border:#C8AAB2 solid 1px;}
+.site_0d4ba0 .bg_clair{background:#9DB7DB;}
+.site_0d4ba0 .bg_inter{background:#5381BF;color:#fff;}
+.site_0d4ba0 .bg_fonce{background:#0d4ba0;color:#fff;}
+.site_0d4ba0 .bg_clair_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #9DB7DB;}
+.site_0d4ba0 .bg_inter_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #5381BF;color:#fff;}
+.site_0d4ba0 .border_rbl_clair_6{border:#9DB7DB 6px;border-style:none solid solid solid;}
+.site_0d4ba0 .border_t_clair_6{border:#9DB7DB 6px;border-style:solid none none none;}
+.site_0d4ba0 .border_trbl_clair_1{border:#9DB7DB solid 1px;}
+.site_89c74c .bg_clair{background:#D2E8B4;}
+.site_89c74c .bg_inter{background:#B0D77D;color:#fff;}
+.site_89c74c .bg_fonce{background:#89c74c;color:#fff;}
+.site_89c74c .bg_clair_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #D2E8B4;}
+.site_89c74c .bg_inter_onglet{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_onglet.png") repeat-y scroll right center #B0D77D;color:#fff;}
+.site_89c74c .border_rbl_clair_6{border:#D2E8B4 6px;border-style:none solid solid solid;}
+.site_89c74c .border_t_clair_6{border:#D2E8B4 6px;border-style:solid none none none;}
+.site_89c74c .border_trbl_clair_1{border:#D2E8B4 solid 1px;}
+.clearer{clear:both;}
+.clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+.clearfix{display:inline-block;}
+html[xmlns] .clearfix{display:block;}
+* html .clearfix{height:1%;}
+#blocpartages{text-align:right;}
+#blocpartages img{vertical-align:bottom;width:24px;height:24px;}
+.pagination{text-align:right;}
+.pagination_top{margin-bottom:15px;}
+.pagination_bottom{margin-top:10px;}
+#genMessages{position:absolute;top:15px;left:50%;width:400px;margin-left:-200px;z-index:100;}
+#genMessages .message_error{background:#d00000;padding:10px;color:#fff;font-size:12px;font-weight:bold;border:2px solid #333;margin-bottom:1px;}
+#genMessages .message_error pre{margin:0;}
+
+/* squelettes/css/blocright.css */
+#blocRight{width:231px;float:left;margin-left:13px;}
+#blocRight h3,#modules_bottom h3{text-transform:uppercase;font-size:12px;font-weight:normal;padding-top:3px;padding-bottom:3px;padding-left:10px;}
+#blocRight td,#modules_bottom td{font-size:11px;}
+#blocRight .module,#modules_bottom .module{margin-bottom:13px;}
+#blocRight .content,#modules_bottom .content{padding:8px 8px 5px 8px;word-wrap:break-word;}
+#blocRight .content .soustitre_lvl1{color:#000;font-size:11px;font-weight:bold;text-transform:uppercase;}
+#blocRight .content .soustitre{color:#000;font-size:12px;font-weight:bold;}
+#blocRight .content p,#modules_bottom .content p{margin:0 0 10px 0;font-size:11px;}
+#blocRight .content a{color:#333 !important;font-size:11px;}
+#modules_bottom .content a{color:#333 !important;font-size:12px;}
+#blocRight .content li a{text-decoration:none;}
+#modules_bottom .content li a{text-decoration:none;}
+#blocRight .content a:hover,#modules_bottom .content a:hover{text-decoration:underline;}
+#blocRight .content ul,#modules_bottom .content ul{margin-left:0px !important;}
+#blocRight .content ul li,#modules_bottom .content ul li{list-style-type:none;font-size:11px;margin-bottom:7px;padding-left:10px;}
+#blocRight .content ol,#modules_bottom .content ol{padding-left:18px;}
+#blocRight .content ol li,#modules_bottom .content ol li{font-size:11px;margin-bottom:7px;}
+#blocRight .content blockquote{margin:10px 0;padding-left:10px;border-left:#a0c0e0 solid 3px;}
+#modules_bottom{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_horizontal.jpg") top repeat-x;overflow:hidden;padding-top:15px;}
+#modules_bottom .module{width:376px;float:right;}
+#blocRight .chiffres{border:none;}
+#blocRight .imageclick .illustration{position:relative;z-index:1;}
+#blocRight .imageclick a{text-decoration:none;}
+#blocRight .imageclick img{vertical-align:bottom;}
+#blocRight .imageclick span{position:absolute;bottom:0;left:0;font-size:12px;color:#fff;font-weight:bold;text-transform:uppercase;padding:3px 0 4px 10px;background:url("http://www.paris-sorbonne.fr/squelettes/img/transparent.png") repeat center;display:block;width:221px;z-index:10;}
+#blocRight .actualites .content ul{list-style-type:none;padding-left:0px;}
+#blocRight .actualites .content ul li{border-bottom:#887F68 dotted 1px;padding-bottom:6px;margin-bottom:6px;}
+#blocRight .documents .content #seebtn{text-align:right;margin-bottom:5px;}
+#blocRight .documents .content #seebtn a{text-decoration:underline;}
+#blocRight .documents .content #seebtn a:hover{text-decoration:none;}
+.plan small{display:none;}
+#blocRight .pups .content{overflow:hidden;clear:both;margin-bottom:10px;}
+#blocRight .pups .article_logo{float:left;margin-right:5px;}
+#blocRight .catalogue label{font-size:11px;display:block;margin-bottom:5px;}
+#blocRight #catalogue_search{font-size:11px;padding:3px 5px;border:none;background:#E8E8E8;color:#595959;width:205px;}
+#blocRight #catalogue_submit{border:none;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce/puce_c20000.jpg") no-repeat 0 3px;cursor:pointer;font-size:11px;color:#333;margin-top:5px;padding-left:8px;}
+#blocRight .contacts .content{background:#E7E4DF;}
+#blocRight .archives h3{cursor:pointer;background:#2ECBBA url("http://www.paris-sorbonne.fr/squelettes/img/puce/puce_blanche_bottom.png") 215px 7px no-repeat;}
+#blocRight .archives h3.selected{background:#2ECBBA url("http://www.paris-sorbonne.fr/squelettes/img/puce/puce_blanche_top.png") 215px 7px no-repeat;}
+#blocRight .archives h3:hover{background:#333 url("http://www.paris-sorbonne.fr/squelettes/img/puce/puce_blanche_bottom.png") 215px 7px no-repeat;color:#fff;}
+#blocRight .archives h3.selected:hover{background:#333 url("http://www.paris-sorbonne.fr/squelettes/img/puce/puce_blanche_top.png") 215px 7px no-repeat;}
+#blocRight .archives .content{max-height:260px;overflow:auto;}
+#blocRight .dates ul li{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce/puce_black2.jpg") 0px 3px no-repeat;}
+#blocRight .dates ul li a{text-decoration:none;text-transform:uppercase;font-size:12px;}
+#blocRight .dates ul li a:hover,#blocRight .dates ul li.selected{font-weight:bold;}
+#blocRight .formations{margin-bottom:12px;height:148px;}
+#blocRight .formations .illustration{position:absolute;}
+#blocRight .formations h3{font-size:12px;color:#fff;text-transform:uppercase;font-weight:normal;position:relative;padding-top:4px;padding-bottom:4px;padding-left:10px;margin-bottom:8px;background:url("http://www.paris-sorbonne.fr/squelettes/img/transparentHometexteimg.png");}
+#blocRight .formations .content{position:relative;font-size:26px;font-weight:bold;font-family:RotisSemiSerifStd;color:#fff;font-weight:normal;padding-left:20px;line-height:26px;margin-bottom:15px;}
+#blocRight .formations .link{position:relative;text-align:right;padding-right:10px;}
+#blocRight .formations .link a{text-decoration:none;font-size:11px;font-weight:bold;color:#fff;background-color:#857960;border:1px solid #2c1908;padding-left:5px;padding-right:5px;}
+#blocRight .sites{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_sites.jpg") repeat-y;}
+#blocRight .sites h3{background-color:#fcdd83;text-transform:uppercase;font-size:12px;font-weight:normal;padding-top:3px;padding-bottom:3px;padding-left:10px;}
+#blocRight .sites .content{background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_horizontal.jpg") bottom repeat-x;padding-left:7px;padding-right:8px;padding-top:6px;padding-bottom:5px;}
+#blocRight .sites ul{list-style-type:none;}
+#blocRight .sites ul li{font-size:11px;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_texteimg4.jpg") 0px 3px no-repeat;padding-left:10px;margin-bottom:7px;}
+#blocRight .sites ul li a{text-decoration:none;}
+#blocRight .liensUtiles{border:1px solid #a09c81;}
+#blocRight .liensUtiles h3{background-color:#f9bb08;font-size:12px;text-transform:uppercase;font-weight:normal;padding-top:3px;padding-bottom:3px;padding-left:10px;color:#fff;}
+#blocRight .liensUtiles .content{padding-left:7px;padding-right:8px;padding-top:8px;padding-bottom:5px;}
+#blocRight .liensUtiles ul{list-style-type:none;}
+#blocRight .liensUtiles ul li{font-size:11px;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_texteimg4.jpg") 0px 3px no-repeat;padding-left:10px;margin-bottom:7px;}
+#blocRight .liensUtiles ul li a{text-decoration:none;}
+#blocRight .nouveautes{border:1px solid #a09c81;margin-bottom:12px;}
+#blocRight .nouveautes h3{background-color:#2ecbba;font-size:12px;text-transform:uppercase;font-weight:normal;padding-top:3px;padding-bottom:3px;padding-left:10px;color:#fff;}
+#blocRight .nouveautes .content{padding-left:11px;padding-right:8px;padding-top:15px;padding-bottom:10px;}
+#blocRight .nouveautes .content ul{list-style-type:none;}
+#blocRight .nouveautes .content ul li{margin-bottom:15px;font-size:11px;}
+#blocRight .nouveautes .content .image{width:62px;float:left;}
+#blocRight .nouveautes .content .text{width:130px;float:right;}
+#blocRight .nouveautes .content .text .nom{text-decoration:underline;font-weight:bold;margin-bottom:25px;}
+#blocRight .nouveautes .content .text .auteur{margin-bottom:25px;}
+#blocRight .nouveautes .content .text .link a{color:#2ecbba;text-decoration:none;padding-left:10px;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_actualites4.jpg") 0px 3px no-repeat;}
+#blocRight .nouveautes .content .link a{text-decoration:none;padding-left:10px;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_actualites4.jpg") 0px 3px no-repeat;font-size:11px;}
+#blocRight .journal{border:1px solid #a09c81;margin-bottom:12px;}
+#blocRight .journal h3{background-color:#abeae2;font-size:12px;text-transform:uppercase;font-weight:normal;padding-top:3px;padding-bottom:3px;padding-left:10px;}
+#blocRight .journal .content{padding-left:11px;padding-right:8px;padding-top:15px;padding-bottom:10px;}
+#blocRight .journal .content .image{width:87px;float:left;}
+#blocRight .journal .content .text{width:110px;float:right;}
+#blocRight .journal .content .text p{font-size:11px;}
+#blocRight .journal .content .link ul{list-style-type:none;}
+#blocRight .journal .content .link ul li{font-size:11px;margin-top:8px;}
+#blocRight .journal .content .link a{text-decoration:none;padding-left:10px;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_actualites4.jpg") 0px 3px no-repeat;font-size:11px;}
+#blocRight .catalogue{border:1px solid #a09c81;margin-bottom:12px;}
+#blocRight .catalogue h3{background-color:#e79999;font-size:12px;text-transform:uppercase;font-weight:normal;padding-top:3px;padding-bottom:3px;padding-left:10px;}
+#blocRight .catalogue .content{padding-left:7px;padding-right:8px;padding-top:8px;padding-bottom:5px;}
+#blocRight .catalogue .content p{margin-top:0px;font-size:11px;}
+#blocRight #catalogueForm input#inputCatalogue{font-size:11px;font-family:arial,verdana,sans-serif;color:#595959;background-color:#e8e8e8;border:0;width:204px;padding-left:10px;padding-top:2px;padding-bottom:2px;margin-bottom:10px;}
+#blocRight #catalogueForm input.submit{font-size:11px;font-family:arial,verdana,sans-serif;color:#333;background-color:#fff;border:0;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_bibliotheques4.jpg") 0px 3px no-repeat;text-align:left;padding-left:10px;}
+#blocRight .catalogue .content .link{margin-bottom:5px;}
+#blocRight .catalogue .content .link a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_bibliotheques4.jpg") 0px 3px no-repeat;font-size:11px;padding-left:10px;}
+#blocRight .liensAD{border:1px solid #a09c81;margin-bottom:12px;}
+#blocRight .liensAD h3{background-color:#d44c4c;font-size:12px;color:#fff;text-transform:uppercase;font-weight:normal;padding-top:3px;padding-bottom:3px;padding-left:10px;}
+#blocRight .liensAD .content{padding-left:7px;padding-right:8px;padding-top:8px;padding-bottom:5px;}
+#blocRight .liensAD ul{list-style-type:none;background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_horizontal.jpg") bottom repeat-x;margin-bottom:5px;}
+#blocRight .liensAD ul.last{background:none;margin-bottom:0px;}
+#blocRight .liensAD ul li{font-size:11px;background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_bibliotheques4.jpg") 0px 3px no-repeat;padding-left:10px;padding-bottom:7px;}
+#blocRight .liensAD ul li img{vertical-align:middle;}
+#blocRight .liensAD ul li a{text-decoration:none;}
+#blocRight .liensAD ul li a.titre{display:block;width:170px;float:left;}
+#blocRight .liensAD ul li a.img{width:16px;float:right;display:block;}
+#blocRight .galerie{border:1px solid #a09c81;margin-bottom:12px;}
+#blocRight .galerie h3{background-color:#f9bb08;color:#fff;text-transform:uppercase;font-size:12px;font-weight:normal;padding-top:3px;padding-bottom:3px;padding-left:10px;}
+#blocRight .galerie .content{padding-left:7px;padding-right:8px;padding-top:6px;padding-bottom:5px;}
+#blocRight .galerie .content .video{margin-top:7px;margin-left:7px;margin-bottom:5px;}
+#blocRight .galerie .content .link{margin-bottom:5px;}
+#blocRight .galerie .content .link a{background:url("http://www.paris-sorbonne.fr/squelettes/img/puce_texteimg4.jpg") 0px 3px no-repeat;font-size:11px;padding-left:10px;text-decoration:none;}
+#blocRight .inscription{height:122px;margin-top:26px;margin-bottom:10px;position:relative;background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_horizontal.jpg") bottom repeat-x;padding-bottom:10px;}
+#blocRight .inscription .illustration{position:absolute;}
+#blocRight .inscription a{font-size:12px;color:#fff;font-weight:bold;position:absolute;padding-top:3px;padding-bottom:4px;padding-left:17px;bottom:10px;background:url("http://www.paris-sorbonne.fr/squelettes/img/transparentEtudiant.png");text-decoration:none;display:block;width:214px;}
+#blocRight .galeriePhoto{margin-bottom:12px;background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_horizontal.jpg") bottom repeat-x;}
+#blocRight .galeriePhoto h3{background-color:#722e43;font-size:12px;text-transform:uppercase;font-weight:normal;padding-top:3px;padding-bottom:3px;padding-left:10px;margin-bottom:10px;color:#fff;}
+#blocRight .galeriePhoto .content{height:110px;padding-bottom:10px;}
+#blocRight .galeriePhoto .content img{margin:5px;}
+#blocRight .location{height:77px;margin-top:26px;margin-bottom:10px;position:relative;background:url("http://www.paris-sorbonne.fr/squelettes/img/pointille_horizontal.jpg") bottom repeat-x;padding-bottom:10px;}
+#blocRight .location .illustration{position:absolute;}
+#blocRight .location a{font-size:12px;color:#fff;font-weight:bold;position:absolute;padding-top:3px;padding-bottom:4px;padding-left:17px;bottom:10px;background:url("http://www.paris-sorbonne.fr/squelettes/img/transparentLocation.png");text-decoration:none;display:block;width:214px;}
+
