@@ -191,7 +191,18 @@ width:50%;
 }
 
 .hLeft .langue {
+	height: 1.5rem;
+	line-height: 1.5rem;
+}
+
+#menuLeft {
+	margin-left : 0;
+	margin-right:0;
+}
+
+#menuLeft .li_1 {
+	padding-top:0;
+	padding-bottom:0;
 	height: 2rem;
 	line-height: 2rem;
 }
-
